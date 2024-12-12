@@ -192,9 +192,52 @@ padding-top: 10px;
  }
  .all{
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 20px;
  }
- 
+ .blog h2,.footer h2{
+  text-align: center;
+  font-size: 50px;
+ }
+ .login form input{
+  background-color: var(--dark-gunmetal);
+  color: #fff;
+  border: 1px solid var(--dark-gunmetal);
+  border-radius: 8px;
+  padding: 10px;
+ }
+ .login form,.login{
+  display: grid;
+  gap: 10px;
+ }
+.footer{
+  background-color: var(--platinum);
+  padding: 70px;
+}
+.message{
+width: 400px;
+display: flex;
+height: 100px;
+}
+.submit{
+  width: fit-content;
+  background-color: #fff;
+  color: var(--dark-gunmetal);
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 8px;
+ margin-left: 350px;
+}
+.social a{
+display: block;
+color: var(--dark-gunmetal);
+margin-top: 2px;
+}
+.description{
+  background-color: var(--dark-gunmetal);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
