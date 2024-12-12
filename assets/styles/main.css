@@ -120,7 +120,7 @@ header nav input{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 70px;
   }
   .image img{
