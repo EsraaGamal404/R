@@ -73,6 +73,9 @@ header nav input{
       width: 150px;
       border-radius: 50px;
     }
+    .all{
+      gap: 20px;
+    }
   }
   @media (min-width:992px){
     header nav label,
@@ -163,6 +166,35 @@ header nav input{
   .text h2{
     font-size: 50px;
   }
-  .parent p{
+  .parent p,.services p{
     line-height: 1.5;
   }
+  .services{
+    background-color: var(--platinum);
+    padding: 70px;
+    text-align: center;
+  }
+  .services h2{
+    font-size: 50px;
+    line-height: 1.5;
+  }
+ .option{
+  background-color: var(--dark-gunmetal);
+  width: fit-content;
+  color: #fff;
+  padding: 30px;
+  border: 1px solid var(--dark-gunmetal);
+  border-radius: 10px;
+ }
+ .option h3,.option p{
+  line-height: 1.5;
+padding-top: 10px;
+ }
+ .all{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+ }
+ 
