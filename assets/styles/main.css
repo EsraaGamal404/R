@@ -251,8 +251,12 @@ margin-top: 2px;
   text-align: center;
   margin-top: 60px;
 }
-.blog,.contact{
-  padding-top: 60px;
+.blog{
+padding-top: 60px;
+}
+.contact{
+  position: relative;
+  top: 9vh;
 }
 .blog .blogs-list {
   display: flex;
